@@ -13,6 +13,7 @@
   "license": "ISC",
   "main": "dist/alpine-import-module.cjs",
   "module": "mod.js",
+  "types": "mod.d.ts",
   "files": [
     "mod.js",
     "dist"
