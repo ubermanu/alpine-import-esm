@@ -34,7 +34,7 @@
     ".": {
       "import": "./mod.js",
       "default": "./mod.js",
-      "require": "./dist/alpine-import-module.cjs"
+      "require": "./dist/alpine-import-esm.cjs"
     },
     "./package.json": "./package.json"
   }

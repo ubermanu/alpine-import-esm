@@ -11,7 +11,7 @@ Node
 Browser
 
 ```html
-<script src="dist/alpine-import-module.cjs"></script>
+<script src="dist/alpine-import-esm.cjs"></script>
 ```
 
 ### Example
