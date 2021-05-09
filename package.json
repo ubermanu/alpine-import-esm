@@ -11,9 +11,16 @@
   "author": "ubermanu <manu@paca.happy-dev.fr>",
   "repository": "https://github.com/ubermanu/alpine-import-esm.git",
   "license": "ISC",
-  "main": "mod.js",
+  "type": "module",
+  "main": "dist/alpine-import-module.cjs",
+  "module": "mod.js",
+  "files": [
+    "mod.js",
+    "dist"
+  ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "prettier": "^2.2.1",

@@ -1,9 +1,10 @@
 import { terser } from 'rollup-plugin-terser'
+import pkg from './package.json'
 
 export default {
-  input: 'mod.js',
+  input: pkg.module,
   output: {
-    file: 'dist/alpine-import-module.js',
+    file: pkg.main,
     name: '$import',
     format: 'umd',
   },
