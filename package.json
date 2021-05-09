@@ -11,6 +11,7 @@
   "author": "ubermanu <manu@paca.happy-dev.fr>",
   "repository": "https://github.com/ubermanu/alpine-import-esm.git",
   "license": "ISC",
+  "type": "module",
   "main": "dist/alpine-import-module.cjs",
   "module": "mod.js",
   "types": "mod.d.ts",
