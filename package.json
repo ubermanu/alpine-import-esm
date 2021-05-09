@@ -1,6 +1,6 @@
 {
   "name": "alpine-import-esm",
-  "description": "",
+  "description": "Import function to load ES modules into component x-data",
   "keywords": [
     "alpinejs",
     "es6",
