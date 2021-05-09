@@ -1,4 +1,6 @@
+import { babel } from '@rollup/plugin-babel'
 import { terser } from 'rollup-plugin-terser'
+import filesize from 'rollup-plugin-filesize'
 import pkg from './package.json'
 
 export default {
@@ -7,6 +9,13 @@ export default {
     file: pkg.main,
     name: '$import',
     format: 'umd',
+    sourcemap: true,
   },
-  plugins: [terser()],
+  plugins: [
+    babel({
+      babelHelpers: 'bundled',
+    }),
+    terser(),
+    filesize(),
+  ],
 }
