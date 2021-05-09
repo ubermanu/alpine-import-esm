@@ -29,5 +29,13 @@
   },
   "peerDependencies": {
     "alpinejs": "^2.8.2"
+  },
+  "exports": {
+    ".": {
+      "import": "./mod.js",
+      "default": "./mod.js",
+      "require": "./dist/alpine-import-module.cjs"
+    },
+    "./package.json": "./package.json"
   }
 }
