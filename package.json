@@ -7,7 +7,7 @@
     "module",
     "import"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "ubermanu <manu@paca.happy-dev.fr>",
   "repository": "https://github.com/ubermanu/alpine-import-esm.git",
   "license": "ISC",
