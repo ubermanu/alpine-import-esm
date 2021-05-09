@@ -17,6 +17,7 @@
   "types": "mod.d.ts",
   "files": [
     "mod.js",
+    "mod.d.ts",
     "dist"
   ],
   "scripts": {
